@@ -1,4 +1,3 @@
-// Settings for tailwind
 {
   "tailwindCSS.experimental.classRegex": [
     ["className\\s*=\\s*\"([^\"]*)\"", 1],
