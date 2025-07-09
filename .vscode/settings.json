@@ -1,0 +1,24 @@
+{
+  "tailwindCSS.experimental.classRegex": [
+    // Pour les classes dynamiques dans des fichiers JS/TS/React
+    ["className\\s*=\\s*\"([^\"]*)\"", 1],
+    ["className\\s*=\\s*'([^']*)'", 1],
+    ["className\\s*=\\s*`([^`]*)`", 1],
+    ["class:\\s*\"([^\"]*)\"", 1],
+    ["class:\\s*'([^']*)'", 1],
+    ["class:\\s*`([^`]*)`", 1]
+  ],
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html",
+    "javascript": "javascript",
+    "typescript": "typescript",
+    "typescriptreact": "typescriptreact",
+    "javascriptreact": "javascriptreact"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "tailwindCSS.emmetCompletions": true,
+  "css.validate": false, // Évite les erreurs CSS sur les classes tailwind
+  "editor.formatOnSave": true // Si tu veux que ça reformate ton code automatiquement
+}
